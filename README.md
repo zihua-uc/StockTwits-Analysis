@@ -1,4 +1,4 @@
-# Large Scale Computing Project: Learning Better Stock Sentiment Labels for StockTwit Messages
+# Large Scale Computing: Learning Better Stock Sentiment Labels for StockTwit Messages
 
 Author: Zihua Chen
 
@@ -13,7 +13,7 @@ The StockTwits API only allows us to get up to 30 tweets at a time for a given s
 
 After scraping the most recent tweets from the top 50 stock ticker symbols, I end up with a dataset of roughly 270,000 tweets. Doing natural language processing tasks and sentiment analysis on such a large dataset would require significant computing resources. Hence, I use AWS Spark to reduce computation time by leveraging parallel processing, in-memory caching, lazy evaluation, and advanced optimizations. These mechanisms make AWS Spark ideal for fast and scalable data processing, analytics, and machine learning on large-scale datasets.
 
-## Workflow of Project
+## Workflow
 
 * Obtain the stock ticker symbols of the top 50 companies by market cap listed on NASDAQ [here](https://www.nasdaq.com/market-activity/stocks/screener). 
   * I focus on the 50 largest stock tickers, but a natural extension to this project is to expand to more stocks, and also other stock exchanges
