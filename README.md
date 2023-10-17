@@ -1,7 +1,5 @@
 # Large Scale Computing Project: Learning Better Stock Sentiment Labels for StockTwit Messages
 
-This is the GitHub repository for the final project of MACS 30123 Large Scale Computing.
-
 Author: Zihua Chen
 
 ## Introduction and Motivation
